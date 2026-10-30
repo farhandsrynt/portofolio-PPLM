@@ -1,0 +1,755 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24314b">
+  <meta name="description" content="E-Portfolio 2 PPG UNESA Farhan Desri Yanto - Praktik Mengajar Mandiri Broadcasting dan Perfilman.">
+
+  <title>E-Portfolio 2 | Farhan Desri Yanto</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="loader-mark">FDY<span>.</span></div>
+    <div class="loader-line"><span></span></div>
+    <p>Preparing portfolio...</p>
+  </div>
+
+  <!-- BACKGROUND -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="noise"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand" aria-label="Kembali ke beranda">
+      <span class="brand-mark">F.</span>
+      <span class="brand-text">FARHAN<span> / E-PORTFOLIO 02</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka navigasi" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Beranda</a>
+      <a href="#profil" class="nav-link">Profil</a>
+      <a href="#rancangan" class="nav-link">Rancangan</a>
+      <a href="#video" class="nav-link">Praktik Mengajar</a>
+      <a href="#refleksi" class="nav-link">Refleksi</a>
+      <a href="#galeri" class="nav-link">Galeri</a>
+    </nav>
+
+    <a href="#rancangan" class="nav-cta">Jelajahi <span>↗</span></a>
+  </header>
+
+  <main>
+
+    <!-- 01. HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="institution-logos" aria-label="Universitas Negeri Surabaya dan Program Pendidikan Profesi Guru">
+          <div class="institution-logo-card">
+            <img src="images/logo%20unesa.jfif" alt="Logo Universitas Negeri Surabaya">
+          </div>
+          <div class="institution-logo-card institution-logo-ppg">
+            <img src="images/logo%20PPG.png" alt="Logo Pendidikan Profesi Guru">
+          </div>
+        </div>
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          PORTOFOLIO PROFESIONAL PPG UNESA
+        </div>
+
+        <p class="hero-overline">TEACHING THROUGH STORIES</p>
+
+        <h1>
+          Merancang.<br>
+          <span class="gradient-text">Mengajar.</span><br>
+          Bertumbuh<span class="accent-dot">.</span>
+        </h1>
+
+        <p class="hero-description">
+          Dokumentasi perjalanan praktik mengajar mandiri,
+          pengembangan perangkat pembelajaran, dan refleksi
+          profesional sebagai calon guru Broadcasting dan Perfilman.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#rancangan" class="btn btn-primary">
+            Lihat Portofolio <span>↗</span>
+          </a>
+          <a href="#profil" class="btn btn-secondary">
+            Kenali Saya
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">PROGRAM</span>
+            <strong>PPG UNESA</strong>
+          </div>
+          <div>
+            <span class="meta-label">SEKOLAH PRAKTIK</span>
+            <strong>SMKN 1 Surabaya</strong>
+          </div>
+          <div>
+            <span class="meta-label">BIDANG STUDI</span>
+            <strong>Broadcasting & Perfilman</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-frame">
+          <div class="frame-top">
+            <span>PORTFOLIO / 2026</span>
+            <span>EDUCATION × FILM</span>
+          </div>
+
+          <div class="portrait-placeholder">
+            <img
+              src="images/foto%20profil.jpeg"
+              alt="Foto Farhan Desri Yanto"
+              class="profile-image"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+            >
+            <div class="portrait-fallback">
+              <span>FDY</span>
+              <small>YOUR STORY STARTS HERE</small>
+            </div>
+          </div>
+
+          <div class="visual-caption">
+            <div>
+              <span class="caption-label">THE EDUCATOR</span>
+              <h2>Farhan Desri Yanto</h2>
+              <p>Calon Guru · Storyteller · Lifelong Learner</p>
+            </div>
+            <span class="visual-number">01 — 06</span>
+          </div>
+
+          <div class="floating-tag tag-top">CREATIVE LEARNING ↗</div>
+          <div class="floating-tag tag-bottom">REFLECT · IMPROVE · GROW</div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#profil">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- 02. PROFILE -->
+    <section class="section profile-section" id="profil">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">01 / ABOUT & CONTEXT</p>
+          <h2>Mengenal <span class="gradient-text">Perjalanan.</span></h2>
+        </div>
+        <p class="section-intro">
+          Memahami konteks pembelajaran adalah langkah awal
+          untuk merancang pengalaman belajar yang bermakna.
+        </p>
+      </div>
+
+      <div class="profile-grid">
+        <article class="profile-card glass-card reveal">
+          <div class="about-photo">
+            <img
+              src="images/Foto%201.jpeg"
+              alt="Foto profil Farhan Desri Yanto"
+              onerror="this.style.display='none';"
+            >
+            <div class="about-photo-fallback">
+              <span class="about-photo-initials">FDY</span>
+              <span class="about-photo-label">FOTO PROFIL</span>
+              <small>Letakkan foto profil di folder images.</small>
+            </div>
+          </div>
+          <p class="card-kicker">PROFIL PRAKTIKAN</p>
+          <h3>Farhan Desri Yanto</h3>
+          <p class="profile-role">Calon Guru Broadcasting & Perfilman</p>
+          <p class="profile-bio">
+            Mahasiswa PPG UNESA yang berfokus pada pembelajaran
+            Penulisan Naskah, pengembangan kreativitas, dan literasi
+            media peserta didik.
+          </p>
+          <div class="profile-details">
+            <div><span>Gelar</span><strong>S.Sos.</strong></div>
+            <div><span>Program</span><strong>PPG UNESA</strong></div>
+            <div><span>Sekolah</span><strong>SMKN 1 Surabaya</strong></div>
+            <div><span>Mata pelajaran</span><strong>Penulisan Naskah</strong></div>
+          </div>
+        </article>
+
+        <article class="context-card glass-card reveal">
+          <div class="context-top">
+            <span class="pill">KONTEKS PEMBELAJARAN</span>
+            <span class="card-number">01</span>
+          </div>
+          <h3>Dari ide menjadi cerita.</h3>
+          <p>
+            Penulisan Naskah menuntut peserta didik untuk
+            mengembangkan ide, memahami struktur, membangun
+            alur, dan menyampaikan gagasan dalam bentuk naskah
+            yang dapat diproduksi.
+          </p>
+          <div class="context-tags">
+            <span>Kreativitas</span>
+            <span>Berpikir Kritis</span>
+            <span>Kolaborasi</span>
+            <span>Literasi Media</span>
+          </div>
+          <div class="context-quote">
+            "Pembelajaran yang baik bukan sekadar memahami teori,
+            tetapi mampu mengubah pengetahuan menjadi karya."
+          </div>
+        </article>
+
+        <article class="needs-card glass-card reveal">
+          <div class="needs-number">02</div>
+          <p class="card-kicker">KEBUTUHAN PEMBELAJARAN</p>
+          <h3>Memahami tantangan, merancang solusi.</h3>
+          <p>
+            Identifikasi kebutuhan pembelajaran dilakukan melalui
+            observasi, asesmen, diskusi dengan guru pamong, dan
+            analisis hasil pekerjaan peserta didik.
+          </p>
+          <div class="evidence-note">
+            <span class="note-dot"></span>
+            <span>
+              <strong>Bukti pendukung</strong>
+              <small>Tambahkan hasil observasi atau asesmen yang tersedia.</small>
+            </span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 03. LEARNING DESIGN -->
+    <section class="section design-section" id="rancangan">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">02 / LEARNING DESIGN</p>
+          <h2>Rancangan <span class="gradient-text">Pembelajaran.</span></h2>
+        </div>
+        <p class="section-intro">
+          Menelusuri proses perencanaan, pengembangan strategi,
+          dan evaluasi rancangan pembelajaran pada siklus 2–4.
+        </p>
+      </div>
+
+      <div class="cycle-grid">
+
+        <article class="cycle-card reveal">
+          <div class="cycle-top">
+            <span class="cycle-label">PRAKTIK MENGAJAR MANDIRI</span>
+            <span class="cycle-index">02</span>
+          </div>
+          <div class="cycle-symbol">↗</div>
+          <h3>Siklus 02</h3>
+          <p>
+            Memuat dokumentasi perencanaan pembelajaran,
+            perangkat ajar, pelaksanaan, dan refleksi pada
+            praktik mengajar mandiri siklus kedua.
+          </p>
+          <a href="#dokumen-siklus-2" class="text-link">
+            Lihat dokumentasi <span>→</span>
+          </a>
+        </article>
+
+        <article class="cycle-card featured-cycle reveal">
+          <div class="cycle-top">
+            <span class="cycle-label">PRAKTIK MENGAJAR MANDIRI</span>
+            <span class="cycle-index">03</span>
+          </div>
+          <div class="cycle-symbol">✳</div>
+          <h3>Siklus 03</h3>
+          <p>
+            Menunjukkan pengembangan rancangan dan penyesuaian
+            pembelajaran berdasarkan bukti pelaksanaan siklus ketiga.
+          </p>
+          <a href="#dokumen-siklus-3" class="text-link">
+            Lihat dokumentasi <span>→</span>
+          </a>
+        </article>
+
+        <article class="cycle-card reveal">
+          <div class="cycle-top">
+            <span class="cycle-label">PRAKTIK MENGAJAR MANDIRI</span>
+            <span class="cycle-index">04</span>
+          </div>
+          <div class="cycle-symbol">◎</div>
+          <h3>Siklus 04</h3>
+          <p>
+            Memuat rancangan, hasil pembelajaran, refleksi,
+            serta peluang perbaikan pada siklus keempat.
+          </p>
+          <a href="#dokumen-siklus-4" class="text-link">
+            Lihat dokumentasi <span>→</span>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="best-design reveal">
+        <div class="best-design-copy">
+          <span class="pill pill-orange">SELECTED WORK</span>
+          <p class="section-index">RANCANGAN TERPILIH</p>
+          <h3>Best Learning<br><span class="gradient-text">Design.</span></h3>
+          <p>
+            Bagian ini memuat satu rancangan pembelajaran terbaik
+            yang dipilih dari siklus 2 sampai 4 berdasarkan
+            kesesuaian tujuan, strategi, asesmen, kebutuhan peserta
+            didik, dan bukti pelaksanaan.
+          </p>
+          <a href="#analisis-rancangan" class="btn btn-primary">
+            Baca Analisis <span>↗</span>
+          </a>
+        </div>
+
+        <div class="document-stack">
+          <div class="document-card document-back">
+            <span>LEARNING MATERIALS</span>
+            <div class="document-lines"></div>
+          </div>
+          <div class="document-card document-middle">
+            <span>ASSESSMENT & LKPD</span>
+            <div class="document-lines"></div>
+          </div>
+          <div class="document-card document-front">
+            <span>PPG UNESA / SELECTED DESIGN</span>
+            <div class="document-emblem">FDY<span>.</span></div>
+            <h4>Modul Ajar</h4>
+            <p>Penulisan Naskah</p>
+            <div class="document-lines"></div>
+            <span class="document-footer">TEACHING PORTFOLIO · 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload/Link dokumen siklus -->
+      <div class="document-grid">
+        <article class="document-item glass-card reveal" id="dokumen-siklus-2">
+          <div class="document-icon">PDF</div>
+          <div>
+            <span class="card-kicker">DOKUMEN SIKLUS 02</span>
+            <h3>Perencanaan Pembelajaran</h3>
+            <p>Dokumentasi perencanaan, pelaksanaan, asesmen, dan refleksi siklus 2.</p>
+            <a class="text-link document-link"
+               href="pdf/siklus%202.pdf" target="_blank" rel="noopener">
+              Buka dokumen <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="document-item glass-card reveal" id="dokumen-siklus-3">
+          <div class="document-icon">PDF</div>
+          <div>
+            <span class="card-kicker">DOKUMEN SIKLUS 03</span>
+            <h3>Perencanaan Pembelajaran</h3>
+            <p>Dokumentasi pengembangan pembelajaran, asesmen, dan refleksi siklus 3.</p>
+            <a class="text-link document-link"
+               href="pdf/siklus%203.pdf" target="_blank" rel="noopener">
+              Buka dokumen <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="document-item glass-card reveal" id="dokumen-siklus-4">
+          <div class="document-icon">PDF</div>
+          <div>
+            <span class="card-kicker">DOKUMEN SIKLUS 04</span>
+            <h3>Perencanaan Pembelajaran</h3>
+            <p>Dokumentasi rancangan, hasil pembelajaran, dan refleksi siklus 4.</p>
+            <a class="text-link document-link"
+               href="pdf/siklus%204.pdf" target="_blank" rel="noopener">
+              Buka dokumen <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="document-item glass-card reveal" id="dokumen-perangkat-ajar-1">
+          <div class="document-icon">PPT</div>
+          <div>
+            <span class="card-kicker">PERANGKAT AJAR 01</span>
+            <h3>Presentasi Pembelajaran</h3>
+            <p>Media presentasi yang digunakan untuk mendukung penyampaian materi pembelajaran.</p>
+            <a class="text-link document-link"
+               href="ppt/perangkat%20ajar%201.pptx" target="_blank" rel="noopener">
+              Buka presentasi <span>&#8599;</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="document-item glass-card reveal" id="dokumen-perangkat-ajar-2">
+          <div class="document-icon">PDF</div>
+          <div>
+            <span class="card-kicker">PERANGKAT AJAR 02</span>
+            <h3>Perangkat Pembelajaran</h3>
+            <p>Modul ajar, bahan ajar, LKPD, dan asesmen yang digunakan dalam pembelajaran.</p>
+            <a class="text-link document-link"
+               href="pdf/perangkat%20ajar%202.pdf" target="_blank" rel="noopener">
+              Buka perangkat ajar <span>&#8599;</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Selected document details -->
+      <div class="analysis-panel glass-card reveal" id="analisis-rancangan">
+        <div class="analysis-header">
+          <div>
+            <p class="section-index">DEEP DIVE / ANALISIS</p>
+            <h3>Mengapa rancangan ini dipilih?</h3>
+          </div>
+          <span class="analysis-badge">SELECTED DESIGN</span>
+        </div>
+
+        <div class="analysis-grid">
+          <div class="analysis-item">
+            <span class="analysis-no">01</span>
+            <h4>Kebutuhan Peserta Didik</h4>
+            <p>
+              Siklus 3 dipilih karena memperlihatkan kesinambungan
+              antara kebutuhan belajar, rancangan pembelajaran,
+              pelaksanaan, dan refleksi perbaikan.
+            </p>
+          </div>
+          <div class="analysis-item">
+            <span class="analysis-no">02</span>
+            <h4>Strategi Pembelajaran</h4>
+            <p>
+              Analisis berfokus pada keterkaitan tujuan, aktivitas,
+              strategi, media, dan asesmen yang terdokumentasi.
+            </p>
+          </div>
+          <div class="analysis-item">
+            <span class="analysis-no">03</span>
+            <h4>Asesmen dan Bukti</h4>
+            <p>
+              Bukti ketercapaian tujuan ditelusuri melalui perangkat
+              asesmen dan hasil pelaksanaan yang tercantum dalam PDF.
+            </p>
+          </div>
+          <div class="analysis-item">
+            <span class="analysis-no">04</span>
+            <h4>Evaluasi dan Perbaikan</h4>
+            <p>
+              Refleksi siklus digunakan untuk merumuskan kekuatan,
+              keterbatasan, dan tindak lanjut pembelajaran berikutnya.
+            </p>
+          </div>
+        </div>
+
+        <div class="selected-document-link">
+          <div>
+            <strong>Dokumen rancangan terbaik</strong>
+            <p>Rancangan terpilih ditautkan ke perangkat ajar lengkap.</p>
+          </div>
+          <a href="pdf/perangkat%20ajar%202.pdf"
+             class="btn btn-secondary document-link"
+             target="_blank" rel="noopener">Lihat PDF ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. TEACHING VIDEO -->
+    <section class="section video-section" id="video">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">03 / TEACHING IN ACTION</p>
+          <h2>From Plan <span class="gradient-text">to Practice.</span></h2>
+        </div>
+        <p class="section-intro">
+          Dokumentasi pelaksanaan pembelajaran yang terhubung
+          langsung dengan rancangan pembelajaran terpilih.
+        </p>
+      </div>
+
+      <div class="video-layout">
+        <div class="video-main reveal">
+          <div class="video-container" id="videoContainer">
+            <video
+              id="teachingVideo"
+              controls
+              preload="metadata"
+              title="Video Praktik Mengajar Mandiri Farhan Desri Yanto"
+              aria-label="Putar video praktik mengajar mandiri">
+              <source src="videos/videos%20mengajar.mp4" type="video/mp4">
+              Browser Anda tidak mendukung pemutaran video.
+            </video>
+          </div>
+
+          <div class="video-caption">
+            <div>
+              <span class="card-kicker">VIDEO UTAMA</span>
+              <h3>Praktik Mengajar Mandiri</h3>
+              <p>Penulisan Naskah · SMKN 1 Surabaya</p>
+            </div>
+            <span class="pill">PPG UNESA</span>
+          </div>
+        </div>
+
+        <aside class="video-sidebar reveal">
+          <span class="section-index">VIDEO ANALYSIS</span>
+          <h3>Melihat lebih dari sekadar mengajar.</h3>
+          <p>
+            Analisis pelaksanaan dilakukan untuk menilai
+            kesesuaian rancangan, keterlibatan peserta didik,
+            pengelolaan kelas, dan pencapaian tujuan.
+          </p>
+
+          <div class="video-point">
+            <span>01</span>
+            <div><strong>Pembukaan</strong><small>Apersepsi dan tujuan pembelajaran.</small></div>
+          </div>
+          <div class="video-point">
+            <span>02</span>
+            <div><strong>Kegiatan Inti</strong><small>Strategi, media, dan aktivitas peserta didik.</small></div>
+          </div>
+          <div class="video-point">
+            <span>03</span>
+            <div><strong>Asesmen</strong><small>Pemeriksaan pemahaman dan hasil kerja.</small></div>
+          </div>
+          <div class="video-point">
+            <span>04</span>
+            <div><strong>Penutup</strong><small>Kesimpulan dan refleksi pembelajaran.</small></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="video-analysis-grid reveal">
+        <article class="glass-card mini-analysis">
+          <span class="analysis-no">A</span>
+          <h4>Perencanaan vs. Pelaksanaan</h4>
+          <p>Bagian yang terlaksana sesuai rancangan dan penyesuaian yang terjadi.</p>
+        </article>
+        <article class="glass-card mini-analysis">
+          <span class="analysis-no">B</span>
+          <h4>Respons Peserta Didik</h4>
+          <p>Bukti partisipasi, diskusi, hasil kerja, dan respons belajar.</p>
+        </article>
+        <article class="glass-card mini-analysis">
+          <span class="analysis-no">C</span>
+          <h4>Ketercapaian Tujuan</h4>
+          <p>Analisis hasil asesmen berdasarkan indikator yang ditetapkan.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 05. REFLECTION -->
+    <section class="section reflection-section" id="refleksi">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">04 / REFLECTION & GROWTH</p>
+          <h2>Belajar dari <span class="gradient-text">Pengalaman.</span></h2>
+        </div>
+        <p class="section-intro">
+          Refleksi menjadi jembatan antara pengalaman mengajar
+          dan perbaikan pembelajaran yang berkelanjutan.
+        </p>
+      </div>
+
+      <div class="reflection-timeline">
+        <article class="reflection-step reveal">
+          <div class="timeline-marker">01</div>
+          <div class="reflection-content glass-card">
+            <span class="card-kicker">WHAT WORKED?</span>
+            <h3>Keberhasilan Pembelajaran</h3>
+            <p>
+              Identifikasi strategi yang efektif dan sertakan
+              bukti, seperti hasil asesmen, keterlibatan peserta
+              didik, atau kualitas karya yang dihasilkan.
+            </p>
+            <span class="reflection-tag">KEKUATAN</span>
+          </div>
+        </article>
+
+        <article class="reflection-step reveal">
+          <div class="timeline-marker">02</div>
+          <div class="reflection-content glass-card">
+            <span class="card-kicker">WHAT WAS CHALLENGING?</span>
+            <h3>Tantangan yang Dihadapi</h3>
+            <p>
+              Uraikan kendala nyata selama pembelajaran,
+              seperti pengelolaan waktu, pemahaman materi,
+              atau perbedaan kesiapan peserta didik.
+            </p>
+            <span class="reflection-tag">EVALUASI</span>
+          </div>
+        </article>
+
+        <article class="reflection-step reveal">
+          <div class="timeline-marker">03</div>
+          <div class="reflection-content glass-card">
+            <span class="card-kicker">WHY DID IT HAPPEN?</span>
+            <h3>Analisis dan Pemaknaan</h3>
+            <p>
+              Jelaskan kemungkinan penyebab tantangan berdasarkan
+              bukti dan hubungkan dengan keputusan pedagogis
+              yang diambil.
+            </p>
+            <span class="reflection-tag">ANALISIS</span>
+          </div>
+        </article>
+
+        <article class="reflection-step reveal">
+          <div class="timeline-marker">04</div>
+          <div class="reflection-content glass-card">
+            <span class="card-kicker">WHAT COMES NEXT?</span>
+            <h3>Rencana Tindak Lanjut</h3>
+            <p>
+              Rumuskan langkah konkret, indikator keberhasilan,
+              dan cara mengevaluasi perbaikan pada pembelajaran
+              selanjutnya.
+            </p>
+            <span class="reflection-tag">PENGEMBANGAN</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="growth-banner reveal">
+        <div>
+          <span class="section-index">A CONTINUOUS JOURNEY</span>
+          <h3>Guru yang bertumbuh<br>adalah guru yang terus belajar.</h3>
+        </div>
+        <div class="growth-symbol">↗</div>
+      </div>
+    </section>
+
+    <!-- 06. GALLERY -->
+    <section class="section gallery-section" id="galeri">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">05 / DOCUMENTATION</p>
+          <h2>Jejak <span class="gradient-text">Pembelajaran.</span></h2>
+        </div>
+        <p class="section-intro">
+          Dokumentasi visual proses belajar, kegiatan mengajar,
+          perangkat pembelajaran, dan hasil karya.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-large reveal"
+          data-full="assets/images/mengajar-1.jpg"
+          aria-label="Lihat foto praktik mengajar">
+          <img src="assets/images/mengajar-1.jpg"
+            alt="Dokumentasi praktik mengajar"
+            onerror="this.style.display='none';"
+            loading="lazy">
+          <span class="gallery-overlay">
+            <span>01 / TEACHING PRACTICE</span>
+            <strong>Praktik Mengajar</strong>
+            <span class="gallery-open">↗</span>
+          </span>
+        </button>
+
+        <button class="gallery-item reveal"
+          data-full="assets/images/aktivitas-siswa.jpg"
+          aria-label="Lihat foto aktivitas pembelajaran">
+          <img src="assets/images/aktivitas-siswa.jpg"
+            alt="Aktivitas pembelajaran peserta didik"
+            onerror="this.style.display='none';"
+            loading="lazy">
+          <span class="gallery-overlay">
+            <span>02 / STUDENT ENGAGEMENT</span>
+            <strong>Aktivitas Belajar</strong>
+            <span class="gallery-open">↗</span>
+          </span>
+        </button>
+
+        <button class="gallery-item reveal"
+          data-full="assets/images/perangkat-ajar.jpg"
+          aria-label="Lihat dokumentasi perangkat ajar">
+          <img src="assets/images/perangkat-ajar.jpg"
+            alt="Dokumentasi perangkat pembelajaran"
+            onerror="this.style.display='none';"
+            loading="lazy">
+          <span class="gallery-overlay">
+            <span>03 / LEARNING DESIGN</span>
+            <strong>Perangkat Ajar</strong>
+            <span class="gallery-open">↗</span>
+          </span>
+        </button>
+
+        <button class="gallery-item reveal"
+          data-full="assets/images/hasil-karya.jpg"
+          aria-label="Lihat dokumentasi hasil karya">
+          <img src="assets/images/hasil-karya.jpg"
+            alt="Hasil karya pembelajaran"
+            onerror="this.style.display='none';"
+            loading="lazy">
+          <span class="gallery-overlay">
+            <span>04 / STUDENT WORK</span>
+            <strong>Hasil Karya</strong>
+            <span class="gallery-open">↗</span>
+          </span>
+        </button>
+      </div>
+
+      <p class="gallery-note">
+        Ganti gambar contoh dengan dokumentasi asli. Pastikan
+        izin publikasi dan privasi peserta didik diperhatikan.
+      </p>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing-section">
+      <div class="closing-orb"></div>
+      <div class="closing-content reveal">
+        <p class="section-index">THE NEXT CHAPTER</p>
+        <h2>Merancang dengan tujuan.<br>
+          <span class="gradient-text">Mengajar dengan makna.</span>
+        </h2>
+        <p>
+          Setiap pengalaman adalah kesempatan untuk belajar,
+          setiap refleksi adalah awal dari perbaikan.
+        </p>
+        <a href="#home" class="btn btn-primary">Kembali ke Atas ↑</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="brand">
+      <span class="brand-mark">F.</span>
+      <span class="brand-text">FARHAN<span> / E-PORTFOLIO 02</span></span>
+    </a>
+
+    <p>
+      E-Portfolio 2 · Praktik Mengajar Mandiri · PPG UNESA
+    </p>
+
+    <span class="footer-year">2026 ©</span>
+  </footer>
+
+  <!-- GALLERY LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose"
+      aria-label="Tutup gambar">×</button>
+    <img id="lightboxImage" src="" alt="Dokumentasi pembelajaran ukuran besar">
+  </div>
+
+  <a href="#home" class="back-to-top" id="backToTop"
+    aria-label="Kembali ke atas">↑</a>
+
+</body>
+</html>
